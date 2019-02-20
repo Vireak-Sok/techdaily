@@ -1,0 +1,135 @@
+body{
+	overflow: scroll;
+}
+
+.logo{
+	background-color: grey;
+	position: absolute;
+	width: 100%;
+	height: 24%;
+	top: 0%;
+	left: 0%;
+}
+div h1{
+	font-size: 350%;
+	position: absolute;
+	left: 2%;
+	font-family: Eras Bold ITC;
+	text-shadow: 2px 2px 15px 5px white;
+}
+nav{
+	position: absolute;
+	top: 18%;
+	left: .5%;
+	width: 70vw;
+	box-shadow: 1px 1px 20px black;
+}
+ul{
+	position: sticky;
+	padding: 0;
+	margin: 0;
+	top: 5px;
+	list-style: none;
+}
+ul li{
+	float: left;
+	width: 14vw;
+	height: 40px;
+	background-color: black;
+	line-height: 235%;
+	text-align: center;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	font-size: 120%;
+}
+ul li a:hover{
+	background: grey;
+}
+ul li ul li{
+	width: 100%;
+	display: none;
+	transition: .7 linear;
+	opacity: .8;
+}
+ul li:hover ul li{
+	display: block;
+	height: 10%;
+}
+ul li ul li a:hover {
+	transform: scale(1.02);
+	background: grey;
+	color: black;
+
+}
+ul li ul li a{
+	font-size: 120%;
+
+}
+.search-box{
+	position: absolute;
+	top: 75%;
+	right: 3%;
+	height: 2vw;
+	width: 20vw;
+	border-radius: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+div i
+{
+	position: absolute;
+	top: 79%;
+	right: 3%;
+	height: 2%;
+	width: 2%;
+
+}
+.more{
+	font-size: 25px;
+	position: absolute;
+	border: 1px;
+	top: 43%;
+	left: 0;
+	background-color: darkgrey;
+	width: 17%;
+	height: 130%;
+	border-top: 3px blue;
+	border-bottom: 3px blue;
+
+}
+.advertisement{
+	font-size: 25px;
+	position: absolute;
+	border: 1px;
+	top: 43%;
+	left: 81%;
+	background-color: rgba(0,0,0,.4);
+	width: 20%;
+	height: 130%;
+	border-top: 3px blue;
+	border-bottom: 3px blue;
+
+}
+.main{
+	font-size: 25px;
+	position: absolute;
+	text-align: justify;
+	padding: 2%;
+	border: 1px;
+	top: 43%;
+	left: 17%;
+	background-color: rgba(0,0,0,.3);
+	width: 60%;
+	height: 100%;
+
+}
+table tr td iframe{
+	width: 95%;
+}
+table{
+	height: 100%;
+	text-align: center;
+}
